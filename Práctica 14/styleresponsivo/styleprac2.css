@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box; /* Establece el modelo de caja de todos los elementos */
+    font-family: "lucida Sans",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    /* Define la fuente utilizada para todos los elementos */
+    font-weight: bold; /* Establece el peso de la fuente para todos los elementos */
+}
+
+.left {
+    background-color: blueviolet; /* Establece el color de fondo para el elemento con la clase "left" */
+    padding: 20px; /* Añade un espacio interno alrededor del contenido del elemento */
+    float: left; /* Hace que el elemento flote hacia la izquierda */
+    width: 20%; /* Establece el ancho del elemento en un 20% del ancho del contenedor principal */
+    color: aquamarine; /* Establece el color del texto del elemento */
+    text-align: center; /* Alinea el texto del elemento al centro */
+}
+
+.body {
+    background-color: brown; /* Establece el color de fondo para el cuerpo del documento */
+    margin: 0%; /* Establece los márgenes del cuerpo del documento */
+    color: rgb(112, 78, 34); /* Establece el color del texto del cuerpo del documento */
+    text-align: center; /* Alinea el texto del cuerpo del documento al centro */
+}
+
+.main {
+    text-align: center; /* Alinea el texto del elemento con la clase "main" al centro */
+    background-color: rgb(121, 195, 245); /* Establece el color de fondo para el elemento con la clase "main" */
+    color: rgb(41, 4, 58); /* Establece el color del texto del elemento con la clase "main" */
+    padding: 20px; /* Añade un espacio interno alrededor del contenido del elemento */
+    float: left; /* Hace que el elemento flote hacia la izquierda */
+    width: 60%; /* Establece el ancho del elemento en un 60% del ancho del contenedor principal */
+}
+
+.right {
+    background-color: rgb(103, 109, 24); /* Establece el color de fondo para el elemento con la clase "right" */
+    padding: 10.5px; /* Añade un espacio interno alrededor del contenido del elemento */
+    float: right; /* Hace que el elemento flote hacia la derecha */
+    width: 20%; /* Establece el ancho del elemento en un 20% del ancho del contenedor principal */
+    color: rgb(90, 25, 52); /* Establece el color del texto del elemento */
+    text-align: center; /* Alinea el texto del elemento al centro */
+}
+
+@media screen and (max-width:660px) {
+    .left,
+    .main,
+    .right {
+        width: 100%;
+ /* Cuando la pantalla tiene un ancho máximo de 660px, los elementos con las clases "left", "main" y "right" ocuparán el 100% del ancho del contenedor principal */
+    }
+}
