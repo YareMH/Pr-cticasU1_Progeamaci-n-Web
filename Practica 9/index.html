@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Establece el conjunto de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la escala inicial del viewport -->
+    <title>Practica 9</title> <!-- Título de la página -->
+    <link rel="icon" href="../Practica 9/imagenes/compu.jpg"> <!-- Enlace al ícono de la página -->
+</head>
+<body> 
+    <center> <!-- Centro de contenido -->
+    <!-- Imagen con un mapa de imagen -->
+    <img src="../Practica 9/imagenes/compu.jpg" alt="IMAGEN NO ENCONTRADA" usemap="#rectangle"/><br>
+    <!-- Definición del mapa de imagen con áreas sensibles -->
+    <map name="rectangle">
+        <area
+            shape="rect"
+            coords="34,44,270,350" 
+            href="pages/html1.html" 
+            name="rectangle" 
+            />
+            <area shape="circle" coords="337,300,44" href="pages/html2.html"/> <!-- Área circular -->
+            <area shape="rect" coords="333,248,290,172" href="pages/html3.html"/> <!-- Otra área rectangular -->
+            </map>
+        <!-- Segunda imagen con otro mapa de imagen -->
+        <img src="../Practica 9/imagenes/pan.jpg" alt="IMAGEN NO ENCONTRADA" usemap="#poly"/>
+        <!-- Definición del segundo mapa de imagen -->
+        <map name="poly">
+            <area
+            shape="poly" 
+            coords="92,184,61,211,40,262,39,307,43,337,56,354,90,355,145,331,190,269,206,222,204,175,194,141,178,114,139,124,109,150" 
+            href="pages/html4.html" 
+            shape="poly"> <!-- Forma poligonal -->
+        </map>
+    </center> <!-- Fin del centro de contenido -->
+</body>
+</html>
