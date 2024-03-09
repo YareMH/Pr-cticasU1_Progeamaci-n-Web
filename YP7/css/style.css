@@ -1,0 +1,52 @@
+body {
+    background: #e0e0e0; /* Establece el color de fondo del cuerpo */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Define la familia de fuentes para el texto */
+    overflow: hidden; /* Oculta cualquier contenido que desborde del cuerpo */
+    }    
+
+#video-background {
+        position: fixed; /* Establece la posición del video fijo (no se desplaza con el contenido) */
+        right: 0%; /* Alinea el video a la derecha */
+        bottom: 0%; /* Alinea el video en la parte inferior */
+        min-width: 100%; /* Establece el ancho mínimo del video al 100% */
+        min-height: 100%; /* Establece la altura mínima del video al 100% */
+        z-index: -1; /* Coloca el video detrás de otros elementos */
+        align-items: center; /* Centra verticalmente el contenido del video */
+    }
+
+.polar img {
+    border-radius: 10%; /* Aplica un radio de borde del 10% para redondear las esquinas de la imagen */
+    height: 10%; /* Establece la altura de la imagen al 10% del tamaño del contenedor */
+    width: 15%; /* Establece el ancho de la imagen al 15% del tamaño del contenedor */
+    margin-bottom: 500%; /* Establece un margen inferior del 500% del tamaño del contenedor */
+    margin-left: 555px; /* Establece un margen izquierdo de 555px */
+    margin-right: auto; /* Centra horizontalmente la imagen */
+    margin-top: 20px; /* Establece un margen superior de 20px */
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.9), 0 0 40px 0 rgba(255, 255, 255, 0.9), 0 0 80px 0 rgba(255, 255, 255, 0.9);
+    /* Agrega una sombra a la imagen */
+}
+
+.fpolar { 
+    text-align: center; /* Centra el texto horizontalmente */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    position: absolute; /* Establece la posición absoluta del contenedor */
+    top: 75%; /* Alinea el contenedor en la parte superior al 75% del tamaño del contenedor padre */
+    left: 50%; /* Alinea el contenedor en la parte izquierda al 50% del tamaño del contenedor padre */
+    transform: translate(-50%, -50%);  /* Mueve el contenedor hacia arriba y hacia la izquierda en un 50% */
+    background: rgba(255, 255, 255, 0.1); /* Establece un color de fondo con opacidad */
+    border-radius: 15px;  /* Aplica un radio de borde del 15% para redondear las esquinas del contenedor */
+    padding: 20px; /* Añade relleno alrededor del contenido */
+    max-width: 300px; /* Establece el ancho máximo del contenedor a 300px */
+    backdrop-filter: blur(10px); /* Aplica un efecto de desenfoque al fondo del contenedor */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9), 0 0 40px 0 rgba(0, 0, 0, 0.9), 0 0 80px 0 rgba(0, 0, 0, 0.9);
+    /* Agrega una sombra al contenedor */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Agrega un borde al contenedor con opacidad */
+}
+
+.fpolar pre {
+    color: white; /* Establece el color del texto a blanco */
+    margin: 0; /* Elimina los márgenes predeterminados del elemento pre */
+    font-family: 'Times New Roman', Times, serif; /* Define la familia de fuentes para el texto */
+    text-shadow: 1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  /* Agrega un efecto de sombra al texto */
+}
