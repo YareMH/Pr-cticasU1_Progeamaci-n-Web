@@ -1,0 +1,30 @@
+<!DOCTYPE html> <!--informa al navegador qué versión de HTML se usó para escribir el documento-->
+<html lang="es"> <!--especifica el idioma natural del contenido de una página web-->
+<head> <!--es la primera de las dos partes en que se estructura un documento HTML-->
+  <meta charset="UTF-8"> <!--los navegadores y los motores de búsqueda interpreten correctamente el contenido de la página-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--definir qué área de pantalla está disponible-->
+  <title>GALERIA DE FOTOS</title> <!--permite darle un título a una página web-->
+</head> 
+<body> <!--Indica la parte del cuerpo del contenido de un documento HTML-->
+  <center> <!--centrar cualquier elemento de nuestra página-->
+  <h1>Galeria de fotos lindas</h1> <!--marcar el título de una página web-->
+  </center> <!--centrar cualquier elemento de nuestra página-->
+      <center> <!--centrar cualquier elemento de nuestra página-->
+      <a href="https://youtu.be/Q_bfKBC89OQ?si=zWLw6bSOaxIguy-W"> <!--indica el link de destino deseado-->
+        <img src="imagen1.jpg" alt="imagen 1" width="200"> <!--poner una imagen-->
+      </a><br> <!--salto de línea-->
+	<center> <!--centrar cualquier elemento de nuestra página-->
+      <p>El girasol es el símbolo del Sol y simboliza el amor y la admiración. Pero también la felicidad, la vitalidad, el positivismo y la energía.</p>
+   	</center> <!--centrar cualquier elemento de nuestra página-->
+      <a href="https://youtu.be/QsRhHEIn0Nw?si=4_FRI9pFnC9Qkugc"> <!--indica el link de destino deseado-->
+        <img src="imagen2.jpg" alt="imagen 2" width="200"> <!--poner una imagen-->
+      </a><br> <!--salto de línea-->
+      <p>Es un símbolo del amante perfecto, la pasión y el romanticismo. El tulipán es un símbolo de amor sincero.</p>
+      <a href="https://youtu.be/zLX_GcXt2pI?si=ivGuZBBTS2jKXnWc"> <!--indica el link de destino deseado-->
+        <img src="imagen3.jpg" alt="imagen 3" width="200"> <!--poner una imagen-->
+      </a><br> <!--salto de línea-->
+      <p>La nieve son pequeños cristales de hielo, que se forman por congelación del agua en la tropósfera, se pueden agrupar y llegar a la tierra en forma de copos blancos.</p>
+  </center> <!--centrar cualquier elemento de nuestra página-->
+
+</body> <!-- se cierra cuerpo del contenido-->
+</html> <!--fin del documento-->
