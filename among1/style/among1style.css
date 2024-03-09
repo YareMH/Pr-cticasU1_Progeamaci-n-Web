@@ -1,0 +1,149 @@
+/* Establece la altura de la página al 100% del viewport */
+html, body {
+    height: 100vh;
+}
+
+/* Configuración del cuerpo de la página */
+body {
+    /* Utiliza flexbox para centrar verticalmente los elementos y distribuirlos horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* Aplica una animación para cambiar el color de fondo */
+    animation: changeBackground 0.4s infinite alternate;
+}
+
+/* Define la animación para cambiar el color de fondo */
+@keyframes changeBackground {
+    0% { 
+        background-color: #380649;
+    }
+    50% {
+        background-color: #5c2805;
+    }
+    100% {
+        background-color: #68550b;
+    }
+}
+
+/* Define las variables de color */
+:root {
+    --border-black: #222;
+    --dark-red: #a82846;
+    --dark-yellow: #c28723;
+    --bone: #ededed;
+    --bone-shade: #bbb;
+}
+
+/* Estilos para el jugador */
+.player {
+    position: relative;
+    background-color: red;
+    height: 120px;
+    width: 100px;
+    border-radius: 45px 60px 45px 0;
+    border: 4px solid var(--border-black);
+    box-shadow: inset 20px -20px 0 var(--dark-red), inset 1px -20px 0 var(--dark-red);
+}
+
+/* Pseudo-elemento antes del jugador */
+.player::before {
+    content: '';
+    display: block;
+    height: 120px;
+    width: 100px;
+    border-radius: 45px 60px 45px 40%;
+    box-shadow: inset 20px -20px 0 var(--dark-red), inset 1px -20px 0 var(--dark-red);
+}
+
+/* Pseudo-elemento después del jugador */
+.player::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    bottom: -4px;
+    left: 40px;
+    border-bottom: 4px solid var(--border-black);
+    border-bottom-right-radius: 10px 40%;
+    box-shadow: inset 20px -20px 0 var(--dark-red), inset 1px -20px 0 var(--dark-red);
+}
+
+/* Estilos para el visor del jugador */
+.player .visor {
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    width: 70%;
+    height: 50px;
+    background-color: #00ffff;
+    border: 4px solid var(--border-black);
+    border-radius: 30px 50% 40% 40%;
+    box-shadow: inset 10px -10px 0 #149696, inset 1px -10px 0 #149696;
+}
+
+/* Pseudo-elemento antes del visor del jugador */
+.player .visor::before {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, .8);
+    margin: 5px 0 0 30px;
+    border-radius: 40% 50% 40% 50%;
+}
+
+/* Estilos para la mochila del jugador */
+.player .backpack {
+    position: absolute;
+    height: 50px;
+    width: 20px;
+    background-color: red;
+    right: calc(100% + 4px);
+    top: 40px;
+    border-radius: 30% 0 0 30%;
+    border: 4px solid var(--border-black);
+    border-right: none;
+    box-shadow: inset 2px -40px 0 var(--dark-red);
+}
+
+/* Estilos para las piernas del jugador */
+.player .leg {
+    position: absolute;
+    background-color: #a82846;
+    height: 30px;
+    width: 40px;
+    border-radius: 0 0 40% 40%;
+    top: 100%;
+    left: -4px;
+    border: 4px solid var(--border-black);
+    border-top: none;
+}
+
+/* Estilos para la pierna frontal */
+.player .leg.front {
+    left: 45px;
+}
+
+/* Pseudo-elemento antes de la pierna frontal */
+.player .leg.front::before {
+    content: '';
+    display: block;
+    background-color: var(--dark-red);
+    width: 100%;
+    height: 13px;
+    position: absolute;
+    bottom: 100%;
+    border-right: 4px solid var(--border-black);
+}
+
+/* Estilos para la sombra */
+.shade {
+    width: 120px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .2);
+    margin-top: 12px;
+    margin-left: -15px;
+}
