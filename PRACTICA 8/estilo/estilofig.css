@@ -1,0 +1,81 @@
+.contenedor1 {
+    width: 400px; /* Establece el ancho del contenedor1 */
+    height: 150px; /* Establece la altura del contenedor1 */
+    background-color: blueviolet;  /* Establece el color de fondo del contenedor1 */
+    position: relative; /* Establece la posición relativa del contenedor1 */
+    margin: 500px; /* Establece los márgenes externos del contenedor1 */
+    margin-top: 10px; /* Establece el margen superior del contenedor1 */
+    text-align: center; /* Alinea el texto en el centro dentro del contenedor1 */
+    box-shadow: 5px 5px 10px rgba(251, 255, 0, 0.842); /* Agrega una sombra al contenedor1 */
+}
+
+.contenedor2 {
+    width: 400px; /* Establece el ancho del contenedor2 */
+    height: 150px; /* Establece la altura del contenedor2 */
+    background-color: black; /* Establece el color de fondo del contenedor2 */
+    color: white;  /* Establece el color del texto dentro del contenedor2 */
+    margin: 20px; /* Establece los márgenes externos del contenedor2 */
+    margin-top: -450px; /* Establece el margen superior del contenedor2 */
+    text-align: center; /* Alinea el texto en el centro dentro del contenedor2 */
+    box-shadow: 5px 5px 10px rgba(251, 255, 0, 0.842); /* Agrega una sombra al contenedor2 */
+}
+
+.contenedor3 {
+    width: 400px;  /* Establece el ancho del contenedor3 */
+    height: 150px; /* Establece la altura del contenedor3 */
+    background-color: whitesmoke; /* Establece el color de fondo del contenedor3 */
+    margin: 900px; /* Establece los márgenes externos del contenedor3 */
+    margin-top: -170px; /* Establece el margen superior del contenedor3 */
+    box-shadow: 5px 5px 10px rgba(251, 255, 0, 0.842); /* Agrega una sombra al contenedor3 */
+    text-align: center; /* Alinea el texto en el centro dentro del contenedor3 */
+
+}
+
+.contenedor4 {
+    border-left: thick solid white; /* Establece un borde sólido grueso a la izquierda del contenedor4 */
+    height: 5%;  /* Establece la altura del contenedor4 */
+    left: 50%;  /* Coloca el contenedor4 en la mitad horizontal de su contenedor padre */
+    position: absolute; /* Establece la posición absoluta del contenedor4 */
+    margin: -1px; /* Establece el margen externo del contenedor4 */
+    margin-top: -1100px; /* Establece el margen superior del contenedor4 */
+    margin-right: -90px; /* Establece el margen derecho del contenedor4 */
+    margin-left: 25px; /* Establece el margen izquierdo del contenedor4 */
+
+}
+
+.contenedor5 {
+    border-left: thick solid white; /* Establece un borde sólido grueso a la izquierda del contenedor5 */
+    height: 3%; /* Establece la altura del contenedor5 */
+    left: 50%; /* Coloca el contenedor5 en la mitad horizontal de su contenedor padre */
+    position: absolute; /* Establece la posición absoluta del contenedor5 */
+    margin-top: -18px; /* Establece el margen superior del contenedor5 */
+    margin-left: -340px; /* Establece el margen izquierdo del contenedor5 */
+}
+.contenedor6{
+    border-left: thick solid white; /* Establece un borde sólido grueso a la izquierda del contenedor6 */
+    height: 3%; /* Establece la altura del contenedor6 */
+    left: 50%;  /* Coloca el contenedor6 en la mitad horizontal de su contenedor padre */
+    position: absolute;  /* Establece la posición absoluta del contenedor6 */
+    margin-top: -18px; /* Establece el margen superior del contenedor6 */
+    margin-left: 335px; /* Establece el margen izquierdo del contenedor6 */
+}
+
+hr{
+    height: 10px; /* Establece la altura de la línea horizontal */
+    width: 50%; /* Establece el ancho de la línea horizontal */
+    background-color: lightblue; /* Establece el color de fondo de la línea horizontal */
+    margin-top: -1070px; /* Establece el margen superior de la línea horizontal */
+    border: none; /* Elimina el borde de la línea horizontal */
+}
+
+#Video {
+    position: fixed; /* Establece la posición fija del video */
+    right: 0%; /* Alinea el video a la derecha */
+    bottom: 0%; /* Alinea el video en la parte inferior */
+    min-width: 100%;  /* Establece el ancho mínimo del video al 100% */
+    min-height: 100%;  /* Establece la altura mínima del video al 100% */
+    z-index: -1; /* Coloca el video detrás de otros elementos */
+    align-items: center; /* Centra verticalmente el contenido del video */
+}
+
+
