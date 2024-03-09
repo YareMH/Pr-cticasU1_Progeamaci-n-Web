@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 3 Poema</title>
+</head>
+<body>
+
+    <header style="background-color: black; color: white; text-align: center;">
+        <h1>Práctica 3</h1>
+    </header>
+    <header style="background-color: pink; color: black; text-align: left;">
+        <h2>Poema</h2>
+    </header>
+	<body style="background-color: lightblue;">
+	<img src="cielo.jpg" style="width: 100%; height: 50%; float: right;">
+    <div style="text-align: center;">
+        <p style="white-space: pre-line;">
+        En el azul del cielo
+        hay una estrella que brilla
+        con un fulgor tan bello,
+        que mi alma se le arrodilla.</p>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html> <!-- Declaración del tipo de documento HTML -->
+<html lang="es"> <!-- Etiqueta de apertura del documento HTML con especificación del idioma español -->
+<head>
+    <meta charset="UTF-8"> <!-- Especificación de la codificación de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la visualización para dispositivos móviles -->
+    <title>Práctica 3 Poema</title> <!-- Título de la página -->
+</head>
+<body>
+
+    <header style="background-color: black; color: white; text-align: center;"> <!-- Cabecera principal con estilo de fondo negro, texto blanco y alineación centrada -->
+        <h1>Práctica 3</h1> <!-- Título principal -->
+    </header>
+    <header style="background-color: pink; color: black; text-align: left;"> <!-- Cabecera secundaria con estilo de fondo rosa, texto negro y alineación a la izquierda -->
+        <h2>Poema</h2> <!-- Título secundario -->
+    </header>
+	<body style="background-color: lightblue;"> <!-- Cuerpo del documento con estilo de fondo color celeste -->
+	<img src="cielo.jpg" style="width: 100%; height: 50%; float: right;"> <!-- Imagen del cielo con ajustes de tamaño y alineación -->
+    <div style="text-align: center;"> <!-- Div para centrar el contenido -->
+        <p style="white-space: pre-line;"> <!-- Párrafo con ajuste de espacio en blanco para mantener el formato del poema -->
+        En el azul del cielo
+        hay una estrella que brilla
+        con un fulgor tan bello,
+        que mi alma se le arrodilla.</p> <!-- Contenido del poema -->
+    </div>
+</body>
+</html>
+
