@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación web</title>
+</head>
+<body>
+    <header>
+        <h1>Hola, Practica Daniel</h1>
+        <h2>Yaret Marroquin Hernandez</h2>
+    </header>
+	<p>Mi primera página web</p>
+	<a href="https://www.youtube.com/watch?v=wzMXsl9n9k4&pp=ygUPZ2lyYXNvbGVzIHZpZGVv">Girasoles bonitos</a>
+	<ul>
+    <li>Girasoles</li>
+    <li>Tulipanes</li>
+    <li>Rosas</li>
+	</ul>
+	<ol>
+    <li>Cosa 1</li>
+    <li>Cosa 2</li>
+    <li>Cosa 3</li>
+	</ol>
+	
+
+
+    	
+    <footer>
+	LOS TQM
+    </footer>
+</body>
+</html>
