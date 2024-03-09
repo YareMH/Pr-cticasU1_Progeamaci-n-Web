@@ -1,0 +1,45 @@
+<HTML>
+
+    <HEAD>
+    <meta charset="UTF-8">
+    <title> ROMEO SANTOS </title>
+    <link rel = "stylesheet" href = "style.css">
+    <h1>
+           ROMEO SANTOS 
+    </h1>
+
+    </HEAD>
+    
+    <body>
+        <h1> SIRI </h1>
+        
+        <div>
+        <pre>
+     Siri, llámala y dile que, yeh
+      que vuelva sin ella la casa se 
+      ha vuelto una selva Siri,
+      llámala y pregúntale, yeh,
+      dónde está oah-ah
+      Estas cuatro paredes se rien
+      en mi cara La cama la tengo de
+      adorno, no puedo dormir
+      Si la vida te pasa factura,
+      ¿Dónde es que se paga?  
+        </pre>
+        </div>
+
+        <div>
+            <a title="good" href="https://www.youtube.com/watch?v=RxSdK6YVpuk&pp=ygUEU0lSSQ%3D%3D" target="_blank"> <img src="romeoF.jpg" 
+        alt="La rolita"
+        title="La formula"/>
+        </a>
+        <p>
+Me gusta por que es guapo, no más que mi novio pero lo es :)
+        </p>
+            </div>
+        
+        
+        </body>
+        
+        </HTML>
+    </body>
