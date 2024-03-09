@@ -1,0 +1,41 @@
+     body, html { 
+      height: 100%; /* Establece el tamaño del cuerpo y el html al 100% de la altura de la ventana */
+      margin: 0; /* Elimina los márgenes predeterminados */
+      padding: 0;  /* Elimina el relleno predeterminado */
+      display: flex; /* Utiliza un modelo de caja flexible */
+      justify-content: center; /* Centra el contenido horizontalmente */
+      align-items: center; /* Centra el contenido verticalmente */
+  }
+  
+  .rounded-image{ 
+    border-radius: 100%; /* Aplica un radio de borde para hacer que la imagen sea circular */
+  }
+  .video-container {
+      position: fixed; /* Establece la posición fija */
+      top: 0; /* Coloca el contenedor de video en la parte superior */
+      left: 0; /* Coloca el contenedor de video en la parte izquierda */
+      width: 100%; /* Establece el ancho al 100% */
+      height: 100%; /* Establece la altura al 100% */
+      overflow: hidden; /* Oculta cualquier desbordamiento */
+      z-index: -1; /* Coloca el contenedor de video detrás de otros elementos */
+  }
+  
+  #video-background {
+      position: absolute; /* Establece la posición absoluta */
+      top: 0; /* Coloca el video en la parte superior */
+      left: 0; /* Coloca el video en la parte izquierda */
+      width: 100%;  /* Establece el ancho al 100% */
+      height: 100%;  /* Establece la altura al 100% */
+      object-fit: cover; /* Escala el video para que llene el contenedor manteniendo su relación de aspecto */
+  }
+  .row {
+    width: 600px; /* Establece el ancho de la fila */
+    position: rigth;  /* Establece la posición de la fila a la derecha (esto debería ser 'right') */
+    background-color: rgba(0, 0, 0, 0.5); /* Establece el color de fondo con transparencia */
+    border: 2px dashed rgba(255, 255, 255, 0.3);  /* Establece el borde con color y transparencia */
+    backdrop-filter: blur(20px); /* Aplica un efecto de desenfoque al fondo */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2); /* Agrega una sombra alrededor de la fila */
+    color: #fff;  /* Establece el color del texto */
+    border-radius: 10px;  /* Aplica un radio de borde */
+    padding: 30px 40px; /* Establece el relleno */
+  }
