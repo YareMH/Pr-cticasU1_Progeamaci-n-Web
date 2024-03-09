@@ -1,0 +1,47 @@
+Body { /* Estilo para el cuerpo de la página */
+    background-color:black ; /* Establece el color de fondo del cuerpo */
+}
+
+.triangulo { /* Estilo para el div que representa un triángulo */
+    width: 0; /* Establece el ancho del triángulo en 0 */
+    height: 50px; /* Establece la altura del triángulo */
+    border: 110px solid transparent; /* Establece el borde del triángulo */
+    border-top: 0; /* Establece el borde superior del triángulo en 0 */
+    border-bottom: 150px solid rgb(46, 18, 146); /* Establece el borde inferior del triángulo */
+    margin-left: auto; /* Centra horizontalmente el triángulo */
+    margin-right: auto; /* Centra horizontalmente el triángulo */
+    display: block; /* Hace que el triángulo sea un bloque */
+}
+
+.rectangulo { /* Estilo para el div que representa un rectángulo */
+    width: 210px; /* Establece el ancho del rectángulo */
+    height: 300px; /* Establece la altura del rectángulo */
+    background-color: rgb(255, 3, 100); /* Establece el color de fondo del rectángulo */
+    margin-bottom: 10px; /* Establece el margen inferior del rectángulo */
+    display: block; /* Hace que el rectángulo sea un bloque */
+    margin-left: auto; /* Centra horizontalmente el rectángulo */
+    margin-right: auto; /* Centra horizontalmente el rectángulo */
+}
+
+.circulo { /* Estilo para el div que representa un círculo */
+    width: 100px; /* Establece el ancho del círculo */
+    height: 100px; /* Establece la altura del círculo */
+    border-radius: 50%; /* Establece el radio de la esquina para que sea un círculo */
+    background-color: rgba(1, 255, 98, 0.555); /* Establece el color de fondo del círculo */
+    margin-bottom: 50px; /* Establece el margen inferior del círculo */
+    margin-top: -300px; /* Establece el margen superior del círculo */
+    margin-left: auto; /* Centra horizontalmente el círculo */
+    margin-right: auto; /* Centra horizontalmente el círculo */
+}
+
+.trapecio { /* Estilo para el div que representa un trapecio */
+    position: relative; /* Establece la posición relativa del trapecio */
+    width: 250px; /* Establece el ancho del trapecio */
+    height: 10px; /* Establece la altura del trapecio */
+    border-right: 60px solid transparent; /* Establece el borde derecho del trapecio */
+    border-left: 60px solid transparent; /* Establece el borde izquierdo del trapecio */
+    border-bottom: 70px solid #7ffd08; /* Establece el borde inferior del trapecio */
+    margin-left: 465px; /* Establece el margen izquierdo del trapecio */
+    margin-top: 170px; /* Establece el margen superior del trapecio */
+    z-index: 2; /* Establece el índice Z del trapecio */
+}
